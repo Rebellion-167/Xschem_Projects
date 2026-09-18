@@ -1,16 +1,20 @@
 # Xschem Projects
 
-A collection of circuit design and simulation projects created using **Xschem**.
+A collection of CMOS circuit design and simulation projects using **Xschem**, **NGSpice**, and the **Sky130 PDK**.
 
 ## Projects
 
-* **CMOS Inverter** — Basic CMOS inverter schematic.
+### 1. CMOS Inverter
 
-## Tools & PDK
+Design and simulation of a CMOS inverter using the Sky130 PDK.
 
-* Xschem
-* NGSpice
-* Sky130 PDK
-* Ubuntu Linux
+### 2. NMOS DC Analysis
 
-More projects will be added over time.
+DC analysis and simulation of an NMOS transistor using the Sky130 PDK.
+
+## Tools & Technologies
+
+* **Xschem** — Schematic capture
+* **NGSpice** — Circuit simulation
+* **Sky130 PDK** — CMOS process design kit
+* **Git & GitHub** — Version control and project management
