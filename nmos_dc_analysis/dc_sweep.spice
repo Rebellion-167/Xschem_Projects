@@ -1,0 +1,15 @@
+** sch_path: /home/barnik-chakraborty/episode_2/dc_sweep.sch
+**.subckt dc_sweep
+XM1 Vds Vgs 0 GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+Vgs Vgs 0 0
+Vds Vds 0 0
+**** begin user architecture code
+
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.dc Vds 0 1.8 1m Vgs 0 2 .5
+.save all
+.end
+
+**** end user architecture code
+**.ends
+.end
